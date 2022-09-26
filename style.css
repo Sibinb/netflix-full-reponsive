@@ -1057,6 +1057,12 @@ body {
         height: 62vw;
         width: 89vw;
     }
+    .image1 {
+        height: 62vw;
+        width: 95vw;
+        position: absolute;
+        top: -11vw;
+    }
     .div1 {
         margin-left: 2vw;
         width: 95%;
