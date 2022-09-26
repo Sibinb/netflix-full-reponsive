@@ -168,7 +168,8 @@ body {
 }
 
 .sub-div {
-    height: 30vw;
+    min-height: 80vh;
+    ;
     width: 100%;
     background-color: rgb(0, 0, 0);
     position: relative;
@@ -201,6 +202,11 @@ body {
     height: 27vw;
     width: 36vw;
 
+}
+.image1{
+        height: 27vw;
+        width: 36vw;
+    
 }
 
 .passage {
@@ -405,6 +411,26 @@ body {
     display: none;
 }
 
+.submt-btn2 {
+    font-size: 1vw;
+    margin-top: 0vw;
+    background-color: red;
+    width: 14vw;
+    margin-left: -0.5vw;
+    height: 3.5vw;
+    padding-top: 0.8vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+    border: red;
+    color: white;
+}
+
+.inpt2 {
+    width: 25vw;
+    height: 3.5vw;
+    font-size: 2vw;
+}
+
 @media (max-width:1200px) {
     .content h1 {
         font-size: 3rem;
@@ -426,8 +452,17 @@ body {
         height: 27vw;
         width: 36vw;
     }
+    .image1{
+        height: 27vw;
+        width: 36vw;
+    }
 
     .video {
+        height: 27vw;
+        width: 31vw;
+        padding-left: 3rem;
+    }
+    .video_2{
         height: 27vw;
         width: 31vw;
         padding-left: 3rem;
@@ -484,7 +519,7 @@ body {
     }
 
     .down-div {
-        height: auto;
+        height: 40vw;
     }
 
 }
@@ -577,7 +612,7 @@ body {
     }
 
     .down-div {
-        height: auto;
+        height: 40vw;
     }
 
     .gif-2 p {
@@ -589,11 +624,18 @@ body {
     }
 
 
+
 }
 
-@media (max-width:769px) {
+@media (max-width:768px) {
     .log-in {
         justify-content: center;
+    }
+
+    .logo {
+        width: 21vw;
+        margin-top: 0.41vw;
+        margin-left: 1.56vw;
     }
 
     .log-in-2 {
@@ -601,7 +643,7 @@ body {
     }
 
     .sub-div {
-        height: 65vw;
+        height: 80vw;
     }
 
     .passage {
@@ -613,7 +655,9 @@ body {
     }
 
     .sub-div h1 {
-        font-size: 4vw;
+        font-size: 6vw;
+        margin-top: 0.5vw;
+        text-align: center;
     }
 
     .content h1 {
@@ -627,72 +671,86 @@ body {
     }
 
     .content h3 {
-        padding: .1rem 0 .1rem 0;
+        padding: 0.1rem 0 0.1rem 0;
         margin-top: 0px;
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .image {
-        height: 68vw;
-        width: 58vw;
-        padding-bottom: 23vw;
-        top: -12vw;
-        left: 23vw;
+        height: 61vw;
+        width: 73vw;
+        top: -18vw;
+        left: 8vw;
     }
 
     .video {
         position: absolute;
-        top: -5vw;
-        height: 25vw;
-        width: 101vw;
+        top: -4vw;
+        height: 35vw;
+        width: 87vw;
         left: 0vw;
     }
 
     .english {
-        font-size: 1.5vw;
-        height: 3.3vw;
-        width: 15vh;
+        font-size: 2vw;
+        height: 5vw;
+        width: 23vh;
     }
 
     .signin {
-        height: 3.5vw;
-        width: 7vw;
-        font-size: 1.5vw;
+        height: 5vw;
+        width: 10vw;
+        font-size: 2vw;
     }
 
     .inpt {
-        width: 30vw;
-        height: 4.75vw;
-        font-size: 1.5vw;
+        width: 68vw;
+        height: 6.75vw;
+        font-size: 3.5vw;
     }
 
     .submt-btn {
-        font-size: 1.3vw;
+        font-size: 1.7vw;
+        margin-top: 1vw;
+        width: 20vw;
         height: 5vw;
     }
 
     .sub-div h2 {
-        font-size: 2vw;
+        font-size: 3vw;
+        margin-left: 2px;
+        text-align: center;
+        z-index: 2;
+        position: absolute;
     }
 
     .gif {
-        left: 23vw;
-        top: 30.5vw;
-        width: 30vw;
+        left: 24vw;
+        top: 39.5vw;
+        justify-content: space-between;
+        width: 44vw;
         height: 10vw;
     }
 
     .video_2 {
-        height: 19vw;
-        width: 41vw;
-        margin-left: 30vw;
+        height: 25vw;
+        width: 52vw;
+        top: -9vw;
+        margin-left: 18vw;
         padding-left: 2rem;
     }
 
 
+
     .div1 {
-        margin-left: 2vw;
-        width: 95%;
+        margin-left: 10vw;
+        width: 79%;
+    }
+
+    .div1 h1 {
+        margin-left: 4vw;
+        font-size: 2.8vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .details1,
@@ -701,12 +759,12 @@ body {
     .details4,
     .details5,
     .details6 {
-        margin-left: 2vw;
-        width: 95%;
+        margin-left: 10vw;
+        width: 79%;
     }
 
     .down-div {
-        height: auto;
+        height: 40vw;
         font-size: 2vw;
     }
 
@@ -715,12 +773,12 @@ body {
     }
 
     #hedu {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     #mobile-img {
-        height: 61vw;
-        width: 65vw;
+        height: 69vw;
+        width: 82vw;
         margin-left: 12vw;
         padding-left: 0vw;
         padding-top: 13vw;
@@ -740,11 +798,47 @@ body {
 
     }
 
+    #imo {
+        height: 7vw;
+    }
+
+    .submt-btn2 {
+        font-size: 1.7vw;
+        margin-top: 0vw;
+        background-color: red;
+        width: 20vw;
+        margin-left: -0.5vw;
+        height: 6vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0vw;
+        margin-bottom: 0vw;
+        border: red;
+        color: white;
+
+    }
+
+    .inpt2 {
+        width: 51vw;
+        height: 6vw;
+        font-size: 3vw;
+
+    }
+
+    .div1 h3 {
+        font-size: 3vw;
+        font-family: 'Roboto';
+    }
 }
 
-@media (max-width:577px) {
+@media (max-width:500px) {
     .log-in {
         justify-content: center;
+    }
+
+    .logo {
+        width: 24vw;
+        margin-top: 2.41vw;
+        margin-left: 1.56vw;
     }
 
     .log-in-2 {
@@ -752,12 +846,7 @@ body {
     }
 
     .sub-div {
-        height: 65vw;
-    }
-
-    .passage h1 {
-        text-align: center;
-        margin: 0;
+        height: 80vw;
     }
 
     .passage {
@@ -766,91 +855,116 @@ body {
 
     .gif-2 h3 {
         font-size: 2vw;
-        width: 15vw;
+        margin-top: 11px;
     }
 
-    .sub-div h1 {
-        font-size: 4vw;
+    .div1 h1 {
+        margin-left: 5vw;
+        font-size: 2.8vw;
+        margin-top: 1.5vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .content h1 {
-        font-size: 8vw;
+        font-size: 2.5rem;
     }
 
     .content h5 {
-        width: 92vw;
-        font-size: .9rem;
+        width: 500px;
+        font-size: 1rem;
         text-align: center;
     }
 
     .content h3 {
-        padding: .1rem 0 .1rem 0;
+        padding: 0.1rem 0 0.1rem 0;
         margin-top: 0px;
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
     .image {
-        height: 53vw;
-        width: 58vw;
-        padding-bottom: 19vw;
-        top: 1vw;
-        left: 23vw;
+        height: 60vw;
+        width: 89vw;
+        top: -18vw;
+        left: 1vw;
     }
 
     .video {
         position: absolute;
-        top: 7vw;
-        height: 25vw;
-        width: 96vw;
+        top: -4vw;
+        height: 35vw;
+        width: 87vw;
         left: 0vw;
     }
 
     .english {
-        font-size: 2.5vw;
-        height: 4.3vw;
-        width: 13vh;
+        font-size: 2.7vw;
+        height: 7vw;
+        width: 23vh;
     }
 
     .signin {
-        height: 4.5vw;
-        width: 10vw;
-        font-size: 2.5vw;
+        height: 6.9vw;
+        width: 13vw;
+        font-size: 2vw;
     }
 
     .inpt {
-        width: 30vw;
-        height: 4.75vw;
-        font-size: 2.5vw;
+        width: 84vw;
+        height: 6.75vw;
+        font-size: 3.5vw;
     }
 
     .submt-btn {
-        font-size: 1.7vw;
-        height: 5vw;
-        width: 18vw;
+        font-size: 2.7vw;
+        margin-top: 1vw;
+        width: 25vw;
+        height: 8vw;
     }
 
     .sub-div h2 {
-        font-size: 3vw;
+        font-size: 3.5vw;
+        margin-left: 11px;
+        text-align: center;
+        z-index: 2;
+        width: 86vw;
+        position: absolute;
     }
 
     .gif {
         left: 24vw;
-        top: 27.5vw;
-        width: 34vw;
-        height: 11vw;
+        top: 39.5vw;
+        justify-content: space-between;
+        width: 44vw;
+        height: 10vw;
     }
 
     .video_2 {
-        height: 19vw;
-        width: 41vw;
-        margin-left: 30vw;
+        height: 40vw;
+        width: 59vw;
+        top: -9vw;
+        margin-left: 18vw;
         padding-left: 2rem;
     }
 
+    .image1 {
+        height: 62vw;
+        width: 95vw;
+        position: absolute;
+        top: -12vw;
+    }
+
+
 
     .div1 {
-        margin-left: 2vw;
-        width: 95%;
+        margin-left: 10vw;
+        width: 79%;
+        height: 8vw;
+    }
+
+    .div1 h1 {
+        margin-left: 4vw;
+        font-size: 2.8vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .details1,
@@ -859,12 +973,13 @@ body {
     .details4,
     .details5,
     .details6 {
-        margin-left: 2vw;
-        width: 95%;
+        margin-left: 10vw;
+        width: 79%;
     }
 
     .down-div {
-        height: auto;
+        height: 40vw;
+        padding-left: 3vw;
         font-size: 2vw;
     }
 
@@ -873,15 +988,15 @@ body {
     }
 
     #hedu {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     #mobile-img {
-        height: 56vw;
-        width: 68vw;
+        height: 69vw;
+        width: 82vw;
         margin-left: 12vw;
         padding-left: 0vw;
-        padding-top: 19vw;
+        padding-top: 13vw;
     }
 
     #res {
@@ -898,19 +1013,57 @@ body {
 
     }
 
-    .gif-1 img {
-        height: 10vw;
-        padding-left: 10px;
-        padding-top: 10px;
+    .imo {
+        height: 7vw;
     }
 
+    .submt-btn2 {
+        font-size: 1.7vw;
+        margin-top: 0vw;
+        background-color: red;
+        width: 20vw;
+        margin-left: -0.5vw;
+        height: 6vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0vw;
+        margin-bottom: 0vw;
+        border: red;
+        color: white;
+
+    }
+
+    .inpt2 {
+        width: 51vw;
+        height: 6vw;
+        font-size: 3vw;
+
+    }
+
+    .sub-div h1 {
+        font-size: 5vw;
+        margin-bottom: 0;
+        margin-top: 0.5vw;
+        text-align: center;
+    }
+
+    .div1 h3 {
+        font-size: 3vw;
+        font-family: 'Roboto';
+    }
 }
 
 @media (max-width:376px) {
+    .image {
+        height: 62vw;
+        width: 89vw;
+    }
     .div1 {
         margin-left: 2vw;
         width: 95%;
         height: 11vw;
+    }
+    #para1{
+        font-size: 4.5vw;
     }
 
     .sub-div h2 {
@@ -919,7 +1072,7 @@ body {
     }
 
     #mobile-img {
-        height: 52vw;
+        height: 73vw;
         width: 85vw;
         margin-left: 5vw;
         padding-left: 0vw;
@@ -928,7 +1081,7 @@ body {
 
     .gif {
         left: 24vw;
-        top: 27.5vw;
+        top: 39.5vw;
         width: 39vw;
         height: 11vw;
     }
@@ -949,10 +1102,10 @@ body {
 
     .video {
         position: absolute;
-        top: 7vw;
-        height: 25vw;
+        top: -3vw;
+        height: 39vw;
         width: 96vw;
-        left: 0vw;
+        left: -5vw;
     }
 
     .content h5 {
@@ -962,6 +1115,10 @@ body {
     }
 
     .english {
+        font-size: 1vw;
+        height: 3vw;
+        width: 7vw;
+    }.english {
         font-size: 2.5vw;
         height: 4.3vw;
         width: 13vh;
@@ -974,70 +1131,90 @@ body {
     }
 
     .video_2 {
-        height: 19vw;
-        width: 41vw;
-        margin-left: 30vw;
-        padding-left: 2rem;
+        height: 31vw;
+        width: 66vw;
+        margin-left: 18vw;
+        padding-left: -1rem;
     }
-    .imo{
+
+    .imo {
         height: 10vw;
         padding-top: 3px;
         margin-right: 8px;
     }
-    .div1 h1{
-        font-size: 6vw;
+
+    .div1 h1 {
+        font-size: 5vw;
     }
-     .submt-btn{
+
+    .submt-btn {
         height: 4vw;
-        width: 20vw;
+        width: 26vw;
     }
-    .inpt{
+
+    .inpt {
         display: flex;
-    margin: 0 auto 0;
-   
+        margin: 0 auto 0;
+
+    }
+
+    .english1 {
+        height: 26px;
+        font-size: 3.6vw;
+        width: 89px;
+    }
+    .image1 {
+        height: 62vw;
+        width: 95vw;
+        position: absolute;
+        top: -11vw;
+    }
+
 }
-.english1{
-    height: 26px;
-    font-size: 3.6vw;
-    width: 89px;
+
+@media (max-width:321px) {
+   .content h1{
+    font-size: 3vh;
+   }
+   .down-div {
+    height: 40vw;
+    padding-left: 3vw;
+    font-size: 4vw;
+}
+.content h3 {
+    padding: 0.1rem 0 0.1rem 0;
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+.content h1 {
+    font-size: 7vh;
+}
+.submt-btn2 {
+    font-size: 1.7vw;
+    margin-top: 0vw;
+    background-color: red;
+    width: 20vw;
+    margin-left: -1.5vw;
+    height: 6vw;
+    padding-top: 1.5vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+    border: red;
+    color: white;
+}
+.logo {
+    width: 29vw;
+    margin-top: 4.41vw;
+    margin-left: 1.56vw;
+}
+.signin {
+    height: 8.5vw;
+    width: 15vw;
+    font-size: 3.5vw;
+}
+.english {
+    font-size: 3.5vw;
+    height: 7.3vw;
+    width: 14vh;
 }
 }
-
-@media (max-width:321px){
-        .logo{
-            width: 20vw;
-            margin-top: 0.41vw;
-            margin-left: 1.56vw;
-        }
-        .english1 {
-            height: 20px;
-            font-size: 2.6vw;
-            width: 58px;
-        }
-        #vid-2 {
-            height: 18vw;
-            width: 65vw;
-            margin-left: 23vw;
-            padding-left: 0rem;
-        }
-        .video {
-            position: absolute;
-            top: 13vw;
-            height: 25vw;
-            width: 96vw;
-            left: 0vw;
-        }
-        .image{
-            height: 51vw;
-            width: 58vw;
-            padding-bottom: 21vw;
-            top: 6vw;
-            left: 23vw;
-        }
-        #para1{
-            font-size: 3.4vw;
-        }
-
- }
-
-
