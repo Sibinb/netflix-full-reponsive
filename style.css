@@ -1,0 +1,1043 @@
+html {
+    overflow-x: hidden;
+    background-color: black;
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+.main-bg {
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/background1.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+}
+
+.row {
+    margin: 0%;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 12vw;
+    margin-top: .41vw;
+    margin-left: 1.56vw;
+}
+
+.image {
+    position: absolute;
+    z-index: -1;
+}
+
+.backgound {
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+
+}
+
+.english,
+.signin {
+    height: 2.3vw;
+    width: 5.32vw;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: .78vw;
+
+
+}
+
+.lang {
+    height: .625vw;
+    background-color: white;
+    margin-right: 4px;
+    border-radius: 7px;
+}
+
+.signin {
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    margin-left: 1rem;
+    height: 2.2rem;
+    margin-right: 2rem;
+}
+
+.english {
+    font-family: roboto;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: .2rem;
+    width: 5.5vw;
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    top: 10.9375rem;
+    left: 27.625rem;
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    padding-top: 5rem;
+}
+
+.content h1 {
+    font-size: 4rem;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.content h3 {
+    padding: 1rem 0 1rem 0;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1px;
+
+}
+
+.content h5 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.inpt {
+    width: 26.04vw;
+    height: 3.75vw;
+    border: white;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+.submt-btn {
+    background-color: red;
+    border: red;
+    color: white;
+    height: 3.8vw;
+    width: 13.02vw;
+    margin-left: -4px;
+    font-family: Roboto;
+    font-size: 1.2vw;
+    top: 0;
+    padding: 16px;
+    padding-bottom: 14px;
+    padding-top: 16px;
+
+}
+
+.log-in {
+    margin-top: 5rem;
+    justify-content: end;
+
+}
+
+.log-in-2 {
+    justify-content: start;
+}
+
+.sub-div {
+    height: 30vw;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    margin-left: 2rem;
+    border-bottom: rgba(125, 124, 124, 0.3);
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-top: rgba(125, 124, 124, 0.3);
+    border-top-width: 7px;
+    border-top-style: solid;
+}
+
+.sub-div h1 {
+    margin-top: 0px;
+    color: white;
+    font-size: 50px;
+    margin-left: 25px;
+    font-family: Roboto;
+    line-height: 60px;
+}
+
+.sub-div h2 {
+    margin-left: 25px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.image {
+    height: 27vw;
+    width: 36vw;
+
+}
+
+.passage {
+    padding-top: 10vw;
+    padding-left: 5vw;
+    width: 100%;
+    height: 10vh;
+}
+
+.sub-img {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    height: 100%;
+    z-index: 1;
+}
+
+.sub-video {
+    position: relative;
+    display: flex;
+    height: 30vh;
+    padding: 0px;
+}
+
+.video {
+    height: 27vw;
+    width: 31vw;
+    padding-left: 4rem;
+}
+
+.footer-div {
+    height: 71px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 31px;
+
+
+}
+
+.div1 {
+    margin-left: 336px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    height: 70px;
+    width: 738px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6 {
+    background-color: transparent;
+    border: none;
+}
+
+.details1,
+.details2,
+.details3,
+.details4,
+.details5,
+.details6 {
+    margin-left: 336px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    height: auto;
+    width: 48vw;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    flex-direction: column;
+    font-weight: 400;
+    display: none;
+
+}
+
+.div1 h3 {
+    width: 2vw;
+}
+
+.qus {
+    padding-bottom: 10px;
+}
+
+.div1 {
+    margin-left: 25vw;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    height: 70px;
+    width: 738px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.sub-div1 {
+    min-height: 40vw;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    margin-left: 2rem;
+    border-bottom: rgba(125, 124, 124, 0.3);
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-top: rgba(125, 124, 124, 0.3);
+    border-top-width: 7px;
+    border-top-style: solid;
+}
+
+.down-email {
+    margin-left: 2vw;
+}
+
+.down-row {
+    margin: 2vw 0 2vw 0vw;
+    margin-left: 1vw;
+    color: white;
+    padding-left: 2vw;
+}
+
+.english1 {
+    font-family: roboto;
+    border: rgba(104, 99, 99, .4);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(115, 111, 111);
+    height: 54px;
+    width: 122px;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: black;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.gif {
+    width: 300px;
+    background-color: black;
+    border: rgba(125, 124, 124, 0.3);
+    border-style: solid;
+    border-width: 1px;
+    height: 85px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 20vw;
+    display: flex;
+    flex-direction: row;
+    line-height: 22px;
+
+}
+
+.gif-2 h3 {
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    color: white;
+    font-family: Roboto;
+}
+
+.gif-2 p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 20px;
+    color: rgba(40, 60, 208, 0.668);
+    font-family: Roboto;
+
+}
+
+.gif-1 {
+    width: 77px;
+    height: 85px;
+
+}
+
+.video_2 {
+    height: 20vw;
+    width: 27vw;
+    margin-left: 2vw;
+}
+
+#hedu {
+    color: white;
+    font-family: Roboto;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+}
+
+#res {
+    display: none;
+}
+
+@media (max-width:1200px) {
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content h5 {
+        width: 500px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .content h3 {
+        padding: .1rem 0 .1rem 0;
+        margin-top: 0px;
+        font-size: 1rem;
+    }
+
+    .image {
+        height: 27vw;
+        width: 36vw;
+    }
+
+    .video {
+        height: 27vw;
+        width: 31vw;
+        padding-left: 3rem;
+    }
+
+    .english {
+        font-size: 1vw;
+        height: 3vw;
+        width: 18vh;
+    }
+
+    .signin {
+        height: 3vw;
+        font-size: 1vw;
+    }
+
+    .inpt {
+        width: 30vw;
+    }
+
+    .submt-btn {
+        font-size: 1.3vw;
+        padding-top: 1.3vw;
+    }
+
+    .sub-div h2 {
+        font-size: 2.4vw;
+    }
+
+    .gif {
+        left: -5vw;
+        top: -2.5vw;
+        width: 29vw;
+    }
+
+    .video_2 {
+        height: 20vw;
+        width: 26vw;
+        padding-left: 3rem;
+    }
+
+    .div1 {
+        margin-left: 15vw;
+    }
+
+    .details1,
+    .details2,
+    .details3,
+    .details4,
+    .details5,
+    .details6 {
+        margin-left: 15vw;
+        width: 72vw;
+    }
+
+    .down-div {
+        height: auto;
+    }
+
+}
+
+@media (max-width:992px) {
+    .gif-2 h3 {
+        font-size: 1.5vw;
+    }
+
+    .sub-div h1 {
+        font-size: 4vw;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content h5 {
+        width: 500px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .content h3 {
+        padding: .1rem 0 .1rem 0;
+        margin-top: 0px;
+        font-size: 1rem;
+    }
+
+    .image {
+        height: 27vw;
+        width: 36vw;
+    }
+
+    .video {
+        height: 27vw;
+        width: 31vw;
+        padding-left: 3rem;
+    }
+
+    .english {
+        font-size: 1vw;
+        height: 3vw;
+        width: 18vh;
+    }
+
+    .signin {
+        height: 3vw;
+        font-size: 1vw;
+    }
+
+    .inpt {
+        width: 30vw;
+    }
+
+    .submt-btn {
+        font-size: 1.1vw;
+        padding-top: 1.8vw;
+    }
+
+    .sub-div h2 {
+        font-size: 2vw;
+    }
+
+    .gif {
+        left: -5vw;
+        top: -3.5vw;
+        width: 28vw;
+        height: 10vw;
+    }
+
+    .video_2 {
+        height: 20vw;
+        width: 26vw;
+        padding-left: 3rem;
+    }
+
+    .div1 {
+        margin-left: 2vw;
+    }
+
+    .details1,
+    .details2,
+    .details3,
+    .details4,
+    .details5,
+    .details6 {
+        margin-left: 2vw;
+        width: 96vw;
+    }
+
+    .down-div {
+        height: auto;
+    }
+
+    .gif-2 p {
+        font-size: 1.6vw;
+    }
+
+    #hedu {
+        font-size: 5vw;
+    }
+
+
+}
+
+@media (max-width:769px) {
+    .log-in {
+        justify-content: center;
+    }
+
+    .log-in-2 {
+        justify-content: center;
+    }
+
+    .sub-div {
+        height: 65vw;
+    }
+
+    .passage {
+        padding: 0;
+    }
+
+    .gif-2 h3 {
+        font-size: 1.5vw;
+    }
+
+    .sub-div h1 {
+        font-size: 4vw;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content h5 {
+        width: 500px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .content h3 {
+        padding: .1rem 0 .1rem 0;
+        margin-top: 0px;
+        font-size: 1rem;
+    }
+
+    .image {
+        height: 68vw;
+        width: 58vw;
+        padding-bottom: 23vw;
+        top: -12vw;
+        left: 23vw;
+    }
+
+    .video {
+        position: absolute;
+        top: -5vw;
+        height: 25vw;
+        width: 101vw;
+        left: 0vw;
+    }
+
+    .english {
+        font-size: 1.5vw;
+        height: 3.3vw;
+        width: 15vh;
+    }
+
+    .signin {
+        height: 3.5vw;
+        width: 7vw;
+        font-size: 1.5vw;
+    }
+
+    .inpt {
+        width: 30vw;
+        height: 4.75vw;
+        font-size: 1.5vw;
+    }
+
+    .submt-btn {
+        font-size: 1.3vw;
+        height: 5vw;
+    }
+
+    .sub-div h2 {
+        font-size: 2vw;
+    }
+
+    .gif {
+        left: 23vw;
+        top: 30.5vw;
+        width: 30vw;
+        height: 10vw;
+    }
+
+    .video_2 {
+        height: 19vw;
+        width: 41vw;
+        margin-left: 30vw;
+        padding-left: 2rem;
+    }
+
+
+    .div1 {
+        margin-left: 2vw;
+        width: 95%;
+    }
+
+    .details1,
+    .details2,
+    .details3,
+    .details4,
+    .details5,
+    .details6 {
+        margin-left: 2vw;
+        width: 95%;
+    }
+
+    .down-div {
+        height: auto;
+        font-size: 2vw;
+    }
+
+    .gif-2 p {
+        font-size: 1.6vw;
+    }
+
+    #hedu {
+        font-size: 5vw;
+    }
+
+    #mobile-img {
+        height: 61vw;
+        width: 65vw;
+        margin-left: 12vw;
+        padding-left: 0vw;
+        padding-top: 13vw;
+    }
+
+    #res {
+        display: block;
+    }
+
+    #no-res {
+        display: none;
+    }
+
+    .english1 {
+        height: 34px;
+        width: 106px;
+
+    }
+
+}
+
+@media (max-width:577px) {
+    .log-in {
+        justify-content: center;
+    }
+
+    .log-in-2 {
+        justify-content: center;
+    }
+
+    .sub-div {
+        height: 65vw;
+    }
+
+    .passage h1 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .passage {
+        padding: 0;
+    }
+
+    .gif-2 h3 {
+        font-size: 2vw;
+        width: 15vw;
+    }
+
+    .sub-div h1 {
+        font-size: 4vw;
+    }
+
+    .content h1 {
+        font-size: 8vw;
+    }
+
+    .content h5 {
+        width: 92vw;
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .content h3 {
+        padding: .1rem 0 .1rem 0;
+        margin-top: 0px;
+        font-size: 1rem;
+    }
+
+    .image {
+        height: 53vw;
+        width: 58vw;
+        padding-bottom: 19vw;
+        top: 1vw;
+        left: 23vw;
+    }
+
+    .video {
+        position: absolute;
+        top: 7vw;
+        height: 25vw;
+        width: 96vw;
+        left: 0vw;
+    }
+
+    .english {
+        font-size: 2.5vw;
+        height: 4.3vw;
+        width: 13vh;
+    }
+
+    .signin {
+        height: 4.5vw;
+        width: 10vw;
+        font-size: 2.5vw;
+    }
+
+    .inpt {
+        width: 30vw;
+        height: 4.75vw;
+        font-size: 2.5vw;
+    }
+
+    .submt-btn {
+        font-size: 1.7vw;
+        height: 5vw;
+        width: 18vw;
+    }
+
+    .sub-div h2 {
+        font-size: 3vw;
+    }
+
+    .gif {
+        left: 24vw;
+        top: 27.5vw;
+        width: 34vw;
+        height: 11vw;
+    }
+
+    .video_2 {
+        height: 19vw;
+        width: 41vw;
+        margin-left: 30vw;
+        padding-left: 2rem;
+    }
+
+
+    .div1 {
+        margin-left: 2vw;
+        width: 95%;
+    }
+
+    .details1,
+    .details2,
+    .details3,
+    .details4,
+    .details5,
+    .details6 {
+        margin-left: 2vw;
+        width: 95%;
+    }
+
+    .down-div {
+        height: auto;
+        font-size: 2vw;
+    }
+
+    .gif-2 p {
+        font-size: 1.6vw;
+    }
+
+    #hedu {
+        font-size: 5vw;
+    }
+
+    #mobile-img {
+        height: 56vw;
+        width: 68vw;
+        margin-left: 12vw;
+        padding-left: 0vw;
+        padding-top: 19vw;
+    }
+
+    #res {
+        display: block;
+    }
+
+    #no-res {
+        display: none;
+    }
+
+    .english1 {
+        height: 34px;
+        width: 106px;
+
+    }
+
+    .gif-1 img {
+        height: 10vw;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width:376px) {
+    .div1 {
+        margin-left: 2vw;
+        width: 95%;
+        height: 11vw;
+    }
+
+    .sub-div h2 {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    #mobile-img {
+        height: 52vw;
+        width: 85vw;
+        margin-left: 5vw;
+        padding-left: 0vw;
+        padding-top: 23vw;
+    }
+
+    .gif {
+        left: 24vw;
+        top: 27.5vw;
+        width: 39vw;
+        height: 11vw;
+    }
+
+    .gif-2 h3 {
+        margin-top: 11vw;
+        font-size: 2.5vw;
+        width: 20vw;
+        margin: 0;
+        margin-top: 3vw;
+    }
+
+    .gif-1 img {
+        height: 10vw;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .video {
+        position: absolute;
+        top: 7vw;
+        height: 25vw;
+        width: 96vw;
+        left: 0vw;
+    }
+
+    .content h5 {
+        width: 92vw;
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .english {
+        font-size: 2.5vw;
+        height: 4.3vw;
+        width: 13vh;
+    }
+
+    .signin {
+        height: 4.5vw;
+        width: 10vw;
+        font-size: 2.5vw;
+    }
+
+    .video_2 {
+        height: 19vw;
+        width: 41vw;
+        margin-left: 30vw;
+        padding-left: 2rem;
+    }
+    .imo{
+        height: 10vw;
+        padding-top: 3px;
+        margin-right: 8px;
+    }
+    .div1 h1{
+        font-size: 6vw;
+    }
+     .submt-btn{
+        height: 4vw;
+        width: 20vw;
+    }
+    .inpt{
+        display: flex;
+    margin: 0 auto 0;
+   
+}
+.english1{
+    height: 26px;
+    font-size: 3.6vw;
+    width: 89px;
+}
+}
+
+@media (max-width:321px){
+        .logo{
+            width: 20vw;
+            margin-top: 0.41vw;
+            margin-left: 1.56vw;
+        }
+        .english1 {
+            height: 20px;
+            font-size: 2.6vw;
+            width: 58px;
+        }
+        #vid-2 {
+            height: 18vw;
+            width: 65vw;
+            margin-left: 23vw;
+            padding-left: 0rem;
+        }
+        .video {
+            position: absolute;
+            top: 13vw;
+            height: 25vw;
+            width: 96vw;
+            left: 0vw;
+        }
+        .image{
+            height: 51vw;
+            width: 58vw;
+            padding-bottom: 21vw;
+            top: 6vw;
+            left: 23vw;
+        }
+        #para1{
+            font-size: 3.4vw;
+        }
+
+ }
+
+

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid main" style="padding-left: 0px; padding-right:0px; ">
+        <div class="main-bg">
+            <div class="row">
+                <div class="col-6 col-lg-6 d-flex align-items-center vertical-align-center ">
+                    <img class="logo" src="images/logo.png" alt="">
+                </div>
+                <div class="col-6 col-lg-6 pt-4  d-flex justify-content-end align-items-center  ">
+                    <button class="english"><img class="lang" src="images/lang.svg" alt="">English</button>
+                    <button class="signin">Sign In</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 content" style="padding-left: 0px;">
+                    <h1>Unlimited movies, TV <br>&nbsp;&nbsp;&nbsp;shows and more.</h1>
+                    <h3 style=" margin-left: 6px; font-weight: 400;">Watch anywhere. Cancel anytime.</h3>
+                    <h5 style=" font-weight: 400; margin-top: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;Ready to watch? Enter your
+                        email to create or restart your membership.</h5>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-7 col-md-7 d-flex  log-in " style="padding:0;">
+                            <input class="inpt" placeholder="Email address" type="text">
+                        </div>
+                        <div class="col-12 col-lg-5 col-md-5 d-flex log-in-2" style="padding:0 ;">
+                            <button class="submt-btn">Get Started ></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- first div -->
+        <div class="row sub-div justify-items-center" style="margin: 0;">
+            <div class="col-12 col-md-6 col-lg-6 passage">
+                <h1>Enjoy on your TV.</h1>
+                <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 sub-video">
+                <div class="sub-img">
+                    <img class="image" src="images/tv.png" alt="">
+                </div>
+                <video class="video" muted autoplay loop
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"></video>
+            </div>
+        </div>
+        <!-- second-div -->
+        <div class="row sub-div justify-items-center " id="no-res" style="margin: 0;">
+            <div class="col-12 col-md-6 col-lg-6 sub-video">
+                <div class="sub-img">
+                    <div class="gif">
+                        <div class="gif-1">
+                            <img style="height: 90%;  padding-left: 10px;padding-top: 10px;" src="images/boxshot.png"
+                                alt="">
+                        </div>
+                        <div class="gif-2">
+                            <h3>Stranger Things</h3>
+                            <p>Downloading...</p>
+                        </div>
+                        <div class="gif-3">
+                            <img style="height: 90%;" src="images/download-icon.gif" alt="">
+                        </div>
+                    </div>
+                    <img class="image" src="images/mobile-0819.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 passage">
+                <h1>Enjoy on your TV.</h1>
+                <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+            </div>
+        </div>
+        <!-- second-div-responsive -->
+        <div class="row sub-div justify-items-end " id="res" style="margin: 0; ">
+            <div class="col-12 col-md-6 col-lg-6 sub-video ">
+                <div class="col-12 col-md-6 col-lg-6 passage">
+                    <h1>Enjoy on your TV.</h1>
+                    <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+                </div>
+            </div>
+            <div class="sub-img">
+                <div class="gif ">
+                    <div class="gif-1">
+                        <img style="height: 8vw;  padding-left: 10px;padding-top: 10px;" src="images/boxshot.png"
+                            alt="">
+                    </div>
+                    <div class="gif-2">
+                        <h3>Stranger Things</h3>
+                        <p>Downloading...</p>
+                    </div>
+                    <div class="gif-3">
+                        <img style="height: 90%;" src="images/download-icon.gif" alt="">
+                    </div>
+                </div>
+                <img id="mobile-img" src="images/mobile-0819.jpg" alt="">
+            </div>
+        </div>
+        <!-- third-div -->
+        <div class="row sub-div justify-items-center" style="margin: 0;">
+            <div class="col-12 col-md-6 col-lg-6 passage">
+                <h1>Enjoy on your TV.</h1>
+                <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 sub-video">
+                <div class="sub-img">
+                    <img class="image" src="images/pc.png" alt="">
+                </div>
+                <video class="video video_2" id="vid-2" muted autoplay loop
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"></video>
+            </div>
+        </div>
+        <!-- fourth-div -->
+        <div class="row sub-div justify-items-center" style="margin: 0;">
+            <div class="col-12 col-md-6 col-lg-6 passage">
+                <h1>Enjoy on your TV.</h1>
+                <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 sub-video">
+                <div class="sub-img">
+                    <img class="image" src="images/tv.png" alt="">
+                </div>
+                <video class="video" muted autoplay loop
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"></video>
+            </div>
+        </div>
+        <!--1st footer div-->
+        <div class="row sub-div1" style=" background-color: black; text-align:center ; margin: 0;">
+            <div class="col-12">
+                <h1 id="hedu">Frequently Asked Questions
+                </h1>
+            </div>
+            <div class="col-12" style="color:white ; padding: 0;">
+                <div class="div1">
+                    <div class="qus">
+                        <h1 >What is Netflix?</h1>
+                    </div>
+                    <button  id="btn1" onclick="myFunction1()"><img class="imo" style="padding-top: 16px; margin-right: 8px; "
+                            src="images/plus.png" alt=""></button>
+                </div>
+                <div class="details1">
+                    <h3>Netflix is a streaming service that offers a wide variety of award winning TV shows, movies,
+                        anime, documentaries and more on thousands of internet-connected devices.
+                        You can watch as much as you want, whenever you want, without a single ad all for one low
+                        monthly price. There's always something new to discover, and new TV shows and movies are added
+                        every week!</h3>
+                </div>
+                <div class="div1">
+                    <div class="qus">
+                        <h1 >How much does netflix cost?</h1>
+                    </div>
+                    <button  id="btn2" onclick="myFunction2()"><img class="imo" style="padding-top: 16px; margin-right: 8px; "
+                            src="images/plus.png" alt=""></button>
+                </div>
+                <div class="details2">
+                    <h3>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one
+                        fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no
+                        You can watch as much as you want, whenever you want, without a single ad contracts.</h3>
+                </div>
+                <div class="div1">
+                    <div class="qus">
+                        <h1  >Where can i watch?</h1>
+                    </div>
+                    <button id="btn3" onclick="myFunction3()"><img class="imo" style="padding-top: 16px; margin-right: 8px; "
+                            src="images/plus.png" alt=""></button>
+                </div>
+                <div class="details3">
+                    <h3>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                        netflix.com from your personal computer or on any internet-connected device that offers the
+                        Netflix app, including smart TVs, smartphones, tablets, streaming media players and game
+                        consoles.
+
+                        You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use
+                        downloads to watch while you're on the go and without an internet connection. Take Netflix with
+                        you anywhere.</h3>
+                </div>
+                <div class="div1">
+                    <div class="qus">
+                        <h1 >How do i cancel?</h1>
+                    </div>
+                    <button  id="btn4" onclick="myFunction4()"><img class="imo" style="padding-top: 16px; margin-right: 8px; "
+                            src="images/plus.png" alt=""></button>
+                </div>
+                <div class="details4">
+                    <h3>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel
+                        your account online in two clicks. There are no cancellation fees start or stop your account
+                        anytime.</h3>
+                </div>
+                <div class="div1">
+                    <div class="qus">
+                        <h1>What can i watch on netflix?</h1>
+                    </div>
+                    <button  id="btn5" onclick="myFunction5()"><img class="imo" style="padding-top: 16px; margin-right: 8px; "
+                            src="images/plus.png" alt=""></button>
+                </div>
+                <div class="details5">
+                    <h3>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                        Netflix originals, and more. Watch as much as you want, anytime you want.</h3>
+                </div>
+                <div class="div1">
+                    <div class="qus">
+                        <h1 >Is netflix good for kids?</h1>
+                    </div>
+                    <button  id="btn6" onclick="myFunction6()"><img class="imo" style="padding-top: 16px; margin-right: 8px; "
+                            src="images/plus.png" alt=""></button>
+                </div>
+                <div class="details6">
+                    <h3>The Netflix Kids experience is included in your membership to give parents control while kids
+                        enjoy family-friendly TV shows and films in their own space.
+
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity
+                        rating of content kids can watch and block specific titles you don’t want kids to see.</h3>
+                </div>
+                <div class="col-12 justify-content-center align-items-center" style="background-color: black;">
+                    <h5 id="para1" style="text-align: center; color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Ready to watch? Enter your
+                        email to create or restart your membership.</h5>
+                    <div class="down-email">
+                        <input class="inpt" placeholder="Email address" type="text">
+                        <button class="submt-btn">Get Started ></button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="sub-div down-div" style="margin-left:0px;">
+            <p style="color:white ;font-family:Roboto; margin-left: 5vw; margin-bottom:3vw; margin-top: 1vw;">Questions?
+                Call 000-800-040-1843</p>
+            <div class="row  down-row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">FAQ</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Help Centre</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Account</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6"> media center</div>
+            </div>
+            <div class="row down-row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Investor Relations</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Jobs</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Ways to Watch</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Terms of Use</div>
+            </div>
+            <div class="row down-row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6"  >Privacy</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6" >Cookie Preferences</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6" >CorporateInformation</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6" >Contact Us</div>
+            </div>
+            <div class="row down-row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Speed Test</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Legal Notices</div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">Only on Netflix</div>
+            </div>
+            <div class="ft-a2nd">
+                <button class="english1"><img class="lang" src="images/lang.svg" alt="">English</button>
+            </div>
+            <p style="color: gray; font-family:Roboto ; font-size: 11px; margin-left: 15px; margin-top: 1vw;">Netflix
+                India</p>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        let cont1 = document.querySelector(".details1");
+        let cont2 = document.querySelector(".details2");
+        let cont3 = document.querySelector(".details3");
+        let cont4 = document.querySelector(".details4");
+        let cont5 = document.querySelector(".details5");
+        let cont6 = document.querySelector(".details6");
+        let isShow1 = true;
+        let isShow2 = true;
+        let isShow3 = true;
+        let isShow4 = true;
+        let isShow5 = true;
+        let isShow6 = true;
+        function myFunction1() {
+            if (isShow1) {
+                cont1.style.display = "block";
+                isShow1 = false;
+
+            } else {
+                cont1.style.display = "none";
+                isShow1 = true;
+            }
+        }
+        function myFunction2() {
+            if (isShow2) {
+                cont2.style.display = "block";
+                isShow2 = false;
+
+            } else {
+                cont2.style.display = "none";
+                isShow2 = true;
+            }
+        }
+        function myFunction3() {
+            if (isShow3) {
+                cont3.style.display = "block";
+                isShow3 = false;
+
+            } else {
+                cont3.style.display = "none";
+                isShow3 = true;
+            }
+        }
+        function myFunction4() {
+            if (isShow4) {
+                cont4.style.display = "block";
+                isShow4 = false;
+
+            } else {
+                cont4.style.display = "none";
+                isShow4 = true;
+            }
+        }
+        function myFunction5() {
+            if (isShow5) {
+                cont5.style.display = "block";
+                isShow5 = false;
+
+            } else {
+                cont5.style.display = "none";
+                isShow5 = true;
+            }
+        }
+        function myFunction6() {
+            if (isShow6) {
+                cont6.style.display = "block";
+                isShow6 = false;
+
+            } else {
+                cont6.style.display = "none";
+                isShow6 = true;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
